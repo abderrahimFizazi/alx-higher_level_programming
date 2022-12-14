@@ -1,4 +1,3 @@
 #!/usr/bin/python3
 number = 98
-st = ' Battery street'
-print(f'{number}{st}')
+print(f'{number}{" Battery street"}')
