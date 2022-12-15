@@ -5,9 +5,10 @@ if number > 0:
     lst = number % 10
 else: 
     lst = number % -10
+ print(f"{'Last digit of '}{number}{' is '}{lst}{' and is'}")
 if lst > 5:
-    print(f"{'Last digit of '}{number}{' is '}{lst}{' and is greater than 5'}")
+    print("greater than 5")
 elif lst == 0:
-    print(f"{'Last digit of '}{number}{' is '}{lst}{' and is 0'}")
+    print("0")
 else:
-    print(f"{'Last digit of '}{number}{' is '}{lst}{' and is less than 6 and not 0'}")
+    print("less than 6 and not 0")
