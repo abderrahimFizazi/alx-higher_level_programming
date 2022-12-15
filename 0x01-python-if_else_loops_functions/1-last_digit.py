@@ -5,7 +5,7 @@ if number > 0:
     lst = number % 10
 else: 
     lst = number % -10
- print(f"{'Last digit of '}{number}{' is '}{lst}{' and is'}")
+print(f"{'Last digit of '}{number}{' is '}{lst}{' and is '}",end='')
 if lst > 5:
     print("greater than 5")
 elif lst == 0:
