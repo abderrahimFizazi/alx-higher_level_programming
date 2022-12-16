@@ -6,7 +6,7 @@ if argc == 1:
     print("0 arguments.")
 elif argc == 2:
     print("1 argument:")
-    print("1: {}".format(sys.argv[1]))
+    print("1: {}".format(argv[1]))
 else:
     print("{} arguments:".format(argc - 1))
     for a in range(1,argc):
