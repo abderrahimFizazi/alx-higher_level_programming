@@ -9,5 +9,5 @@ elif argc == 2:
     print("1: {}".format(argv[1]))
 else:
     print("{} arguments:".format(argc - 1))
-    for a in range(1,argc):
-        print("{}: {}".format(a,argv[a]))
+    for a in range(1, argc):
+        print("{}: {}".format(a, argv[a]))
