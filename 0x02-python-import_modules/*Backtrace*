@@ -1,0 +1,7 @@
+Debugger entered--Lisp error: (void-variable if)
+  eval-region(1 22 t #f(compiled-function (ignore) #<bytecode 0xdf335d>))  ; Reading at buffer position 489
+  elisp--eval-defun()
+  eval-defun(nil)
+  funcall-interactively(eval-defun nil)
+  call-interactively(eval-defun nil nil)
+  command-execute(eval-defun)
