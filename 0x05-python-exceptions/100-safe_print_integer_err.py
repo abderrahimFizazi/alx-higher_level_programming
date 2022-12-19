@@ -7,4 +7,4 @@ def safe_print_integer_err(value):
         print("Exception: {}".format(error), file=sys.stderr)
         return False
     else:
-    return True
+        return True
